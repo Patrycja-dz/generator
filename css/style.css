@@ -14,11 +14,21 @@ body{
     text-align: center;
     color: #fff;
 }
-.generatorOption{
+.generatorOptions{
     display: flex;
     flex-direction: column;
     justify-content: center;
     align-items: flex-end;
+}
+.generatorOfContent{
+    width: 600px;
+    max-width: 100%;
+    height: auto;
+    align-items: flex-start;
+    border: 2px solid black;
+    margin-right: 30px;
+    margin-top: 20px;
+
 }
 .generatorOption__button{
     width: 250px;
@@ -26,4 +36,8 @@ body{
     margin-top: 20px;
     border-radius: 20px;
     font-size: 22px;
+}
+.random{
+    display: flex;
+    justify-content:center
 }
