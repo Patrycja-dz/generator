@@ -1,0 +1,29 @@
+html{
+box-sizing: border-box;
+}
+*, ::after, ::before{
+    box-sizing: inherit;
+}
+body{
+    background-color: teal;
+}
+.container{
+    width: 1000px;
+    max-width: 100%;
+    margin: 0 auto;
+    text-align: center;
+    color: #fff;
+}
+.generatorOption{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: flex-end;
+}
+.generatorOption__button{
+    width: 250px;
+    padding: 40px;
+    margin-top: 20px;
+    border-radius: 20px;
+    font-size: 22px;
+}
