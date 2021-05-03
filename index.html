@@ -8,6 +8,8 @@
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/normalize/8.0.1/normalize.min.css"
         integrity="sha512-NhSC1YmyruXifcj/KFRWoC561YpHpc5Jtzgvbuzx5VozKpWvQ+4nXhPdFgmx8xqexRcpAglTj9sIBWINXa8x5w=="
         crossorigin="anonymous" />
+    <link rel="preconnect" href="https://fonts.gstatic.com">
+    <link href="https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,400;1,300&display=swap" rel="stylesheet">
     <link href="/css/style.css" rel="stylesheet">
     <title>Random Generator Machine</title>
     <script defer src="script.js"></script>
@@ -15,16 +17,17 @@
 </head>
 
 <body>
-    <section class="container">
-        <h1>Random generator machine</h1>
-        <div class="random">
-        <article class="generatorOfContent" id="js-generatorAnswer"></article>
-        <div class="generatorOptions">
-            <button class="generatorOption__button js-quoteButton">Cytaty</button>
-            <button class="generatorOption__button js-insultButton">Zniewagi</button>
-            <button class="generatorOption__button">Losowa liczba</button>
-            <button class="generatorOption__button">Zadaj pytanie</button>
-        </div>
+    <section class="generator">
+        <h1 class="generator__heading">Random generator machine</h1>
+        <div class="generator__wrapper">
+            <article class="generator__articleElement" id="js-generatorAnswer"><span class="generator__spanElement">Żeby
+                    rozpocząć kliknij wybrany przycisk</span></article>
+            <div class="generator__options">
+                <button class="generator__button js-quoteButton">Cytaty</button>
+                <button class="generator__button js-insultButton">Zniewagi</button>
+                <!-- <button class="generatorOption__button">Losowa liczba</button>
+                <button class="generatorOption__button">Zadaj pytanie</button> -->
+            </div>
         </div>
     </section>
 </body>
