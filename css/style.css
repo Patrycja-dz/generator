@@ -7,7 +7,8 @@ html {
 ::before {
     box-sizing: inherit;
 }
-body{
+
+body {
     background-color: #031927;
 }
 
@@ -27,6 +28,7 @@ body{
     font-family: 'Poppins', sans-serif;
     font-weight: 400;
     color: #ba1200;
+    padding-top: 50px;
 }
 
 .generator__articleElement {
@@ -48,6 +50,7 @@ body{
     border-top: 10px solid #508aa8;
     border-bottom: 10px solid #ff312e;
     color: #fffffa;
+ 
 }
 
 .generator__options {
@@ -55,7 +58,7 @@ body{
     flex-direction: column;
     justify-content: center;
     align-items: flex-end;
-    padding: 10px;
+    padding: 30px;
 }
 
 
@@ -64,19 +67,59 @@ body{
 }
 
 .generator__button {
-    width: 250px;
-    padding: 40px;
-    margin-top: 20px;
-    border-radius: 10px;
+    position: relative;
+    height: 70px;
+    padding: 30px;
+    margin-top: 10px;
     font-size: 22px;
-    background-color: #508AA8;
+    width: 250px;
+    transition: all 0.3s;
+    background-color: transparent;
+    outline: none;
     color: #fff;
     font-weight: 400;
     border: none;
+    font-family: 'Noto Sans', sans-serif;
 }
-
-
-
-//dodac animacje na tekst 
-//dodac ładny hover na buttony 
-ładne tło
+.generator__button::before{
+    content: "";
+    position: absolute;
+    bottom: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    z-index: 1;
+    opacity: 0;
+    transition: all 0.3s;
+    border-right: 1px solid #508aa8;
+    border-left: 1px solid #ba1200;
+    transform: scale(0.1,1);
+  
+}
+.generator__button:hover{
+    transition: all 0.4s ease;
+    color: #0098ba;
+}
+.generator__button:hover::before{
+    opacity: 1;
+    transform: scale(1,1);
+}
+.generator__button::after{
+    content: "";
+    position: absolute;
+    bottom: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    z-index: 1;
+    opacity: 0;
+    transition: all 0.8s;
+    border-top: 1px solid #ba1200;
+    border-bottom: 1px solid #ba1200;
+    transform: scale(0.1,1);
+    box-shadow: #ff312e;
+}
+.generator__button:hover::after{
+    opacity: 1;
+    transform: scale(1,1);
+}
