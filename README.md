@@ -4,6 +4,8 @@
 
 * [Prequesties](#prequesties)
 * [Introduction](#introduction)
+* [Design](#design)
+* [Technologies]{#technologies}
 
 ## Prequesites:
 Before you continue, ensure you have met the following requirements:
