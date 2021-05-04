@@ -81,6 +81,7 @@ body {
     font-weight: 400;
     border: none;
     font-family: 'Noto Sans', sans-serif;
+    cursor: pointer;
 }
 
 .generator__button::before {
