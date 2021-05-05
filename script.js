@@ -38,7 +38,7 @@
     };
     onClickShowQuote();
 
-    const randomBodyParts = ["Głowa", "Szyja", "Ręka", "Noga", "Brzuch", "Stopa", "Łydka"];
+    const randomBodyParts = ["Głowa", "Szyja", "Ręka", "Noga", "Twarz", "Stopa", "Łydka"];
     const randomAdjectives = ["cuchnąca", "duża", "brudna", "głupia", "mała", "okropna", "oślizgła", "zgnita"];
     const randomAnimals = ["Mucha", "Małpa", "Słoń", "Wąż", "Glista", "Norka", "Skunks"];
 

@@ -21,7 +21,7 @@ This is a training project to better understand the boards and the possibilities
 * BEM naming
 * ES6+
 
-# ToDo
+## ToDo
 * Add quotes to json 
 * Add a function that will not allow generating the same quotes until all are shown
 
